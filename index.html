@@ -39,7 +39,7 @@
       <div class="app__main-banner section__padding">
         <div class="app__main-content">
           <p class="app__main-content--heading .app__heading-white">Lorem ipsum dolor sit amet consectetur</p>
-          <p class="app__main-content--subHeading ">Lorem ipsum</p>
+          <p class="app__main-content--subHeading" id="clickedelement" onclick="myFunction()">Lorem ipsum</p>
           <p class="app__main-content--paragraph">
            Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod.
           </p>
@@ -222,26 +222,74 @@
 
     <!-- APP Steps Section -->
 
-    <div class="app__step" id="step">
-      <div class="app__step-heading">
+    <div class="app__step section__padding" id="step">
+      <div class="app__step-heading app__heading-white">
         <p>Lorem Ipsum Dolor Sit</p>
       </div>
 
       <div class="app__step-content">
           <div class="app__step-content--details">
-            <h1>Step1</h1>
+            <h4>Step 1</h4>
             <h5>Lorem Ipsum</h5>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-           <img src="images/check.svg" alt="">
+           <img class="app__step-expand" src="images/next.svg" alt="">
+          </div>
+          <div class="app__step-content--image">
+            <img src="images/congrats.svg" alt="">
+          </div>
+      </div>
+
+       <div class="app__step-content">
+          <div class="app__step-content--details">
+            <h4>Step 2</h4>
+            <h5>Lorem Ipsum</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+           <img class="app__step-expand" src="images/next.svg" alt="">
+          </div>
+          <div class="app__step-content--image">
+            <img src="images/question-mark.svg" alt="">
+          </div>
+      </div>
+
+       <div class="app__step-content">
+          <div class="app__step-content--details">
+            <h4>Step 3</h4>
+            <h5>Lorem Ipsum</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+           <img class="app__step-expand" src="images/next.svg" alt="">
+          </div>
+          <div class="app__step-content--image">
+            <img src="images/chat (2).svg" alt="">
+          </div>
+      </div>
+
+       <div class="app__step-content">
+          <div class="app__step-content--details">
+            <h4>Step 4</h4>
+            <h5>Lorem Ipsum</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+           <img class="app__step-expand" src="images/next.svg" alt="">
           </div>
           <div class="app__step-content--image">
             <img src="images/share.svg" alt="">
           </div>
       </div>
 
+       <div class="app__step-content">
+          <div class="app__step-content--details">
+            <h4>Step 5</h4>
+            <h5>Lorem Ipsum</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+           <img class="app__step-expand" src="images/next.svg" alt="">
+          </div>
+          <div class="app__step-content--image">
+            <img src="images/placeholder.svg" alt="">
+          </div>
+      </div>
+
       <div class="app__step-footer">
-        <h3>Lorem ipsum dolor sit</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+        <h3 >Lorem ipsum dolor sit...</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.ipsum dolor sit amet</p>
       </div>
     </div>
 
@@ -249,24 +297,24 @@
 
     <!-- Call Section -->
 
-<div class="app__call section__padding">
-        <div class="app__call-content">
-          <p>Lorem ipsum dolor sit Amet</p>
+      <div class="app__call ">
+        <div class="app__call-content section__padding">
+          <p class="app__heading-white mobilestyle">Lorem ipsum dolor sit Amet</p>
           <h3>Lorem ipsum</h3>
           <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede
           </p>
           <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra.
           </p>
-          <button class="app__call-button" type="submit">
+          <button class="app__main-content-button" style="width:200px;" type="submit">
            
             Schedule a call today
             
           </button>
         </div>
 
-        <div class="app__main-form">
+        <div class="app__call-image">
           
           <img src="images/mcdonalds.png" alt=""> 
 
@@ -275,61 +323,115 @@
 
 
       <!-- Success Stories Section -->
-      <div class="app__success">
+      <div class="app__success ">
           <div class="app__success-title">
-            <h4>Success Stories</h4>
+            <h4 class="app__heading-white ">Success Stories</h4>
             <p>Ez-Franchise Client Testimonials</p>
           </div>
 
-          <div class="app__success-staff">
-            <img src="images/quote.svg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
+          <div class="app__success-staffs">
+            <div class="app__success-staff" style="background-color: #23CE6B;">
+            <img class="app__success-staff--quote"src="images/quote.svg" alt="">
+            <p class="app__success-staff--descp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
 
-            <img src="images/success1.png" alt="">
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit</p>
+            <div class="app__success-staff-img">
+              <img src="images/success1.png" alt="">
+            </div>
+            <h3 class="app__success-staff-subdesp">Lorem Ipsum</h3>
+            <p class="app__success-staff-subtitle">Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="app__success-staff" style="background-color: #08083D;">
+            <img class="app__success-staff--quote"src="images/quote.svg" alt="">
+            <p class="app__success-staff--descp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
+
+            <div class="app__success-staff-img">
+              <img src="images/success1.png" alt="">
+            </div>
+            <h3 class="app__success-staff-subdesp">Lorem Ipsum</h3>
+            <p class="app__success-staff-subtitle">Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="app__success-staff" style="background-color: #6184D8;">
+            <img class="app__success-staff--quote"src="images/quote.svg" alt="">
+            <p class="app__success-staff--descp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
+
+            <div class="app__success-staff-img">
+              <img src="images/success1.png" alt="">
+            </div>
+            <h3 class="app__success-staff-subdesp">Lorem Ipsum</h3>
+            <p class="app__success-staff-subtitle">Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="app__success-staff" style="background-color: #23CE6B;">
+            <img class="app__success-staff--quote"src="images/quote.svg" alt="">
+            <p class="app__success-staff--descp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
+
+            <div class="app__success-staff-img">
+              <img src="images/success1.png" alt="">
+            </div>
+            <h3 class="app__success-staff-subdesp">Lorem Ipsum</h3>
+            <p class="app__success-staff-subtitle">Lorem ipsum dolor sit</p>
+          </div>
+
+          <div class="app__success-staff" style="background-color: #6184D8;">
+            <img class="app__success-staff--quote"src="images/quote.svg" alt="">
+            <p class="app__success-staff--descp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Integer enim.</p>
+
+            <div class="app__success-staff-img">
+              <img src="images/success1.png" alt="">
+            </div>
+            <h3 class="app__success-staff-subdesp">Lorem Ipsum</h3>
+            <p class="app__success-staff-subtitle">Lorem ipsum dolor sit</p>
+          </div>
           </div>
       </div>
 
         <!-- APP Gurantee Section -->
         <div class="app__gurantee">
-          <h3>Lorem Ipsum Dolor Sit Amet</h3>
+          <h3 class="app__heading-white mobileguranteestyle">Lorem Ipsum Dolor Sit Amet</h3>
           <img src="images/OBJECTS.svg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis Suspendisse urna nibh.</p>
           <p> Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
           <h5> Morbi in sem quis dui placerat ornare pellentesque</h5>
-           <button class="app__call-button" type="submit">
-           
-            Schedule a call today
-            
+          <button class="app__main-content-button" style="width:200px;" type="submit">        
+            Schedule a call today          
           </button>
         </div>
 
 
         <!-- Second Last Section -->
-        <div class="app__seclast">
-          <div class="app__seclast-image">
-            <img src="images/seclast" alt="">
+        <div class="app__lastsec section__padding">
+          <div class="app__lastsec-image">
+            <img src="images/seclast.png" alt="">
 
           </div>
 
-          <div class="app__seclast-content">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            <h4>Lorem Ipsum Dolor Sit Amet Consectetuer!</h4>
-             <button class="app__call-button" type="submit">
-           
-            Schedule a call today
-            
-          </button>
+          
+          <div class="app__lastsec-content">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h4>Lorem Ipsum <br> Dolor Sit Amet Consectetuer!</h4>
+              <button class="app__main-content-button" style="width:200px;" type="submit">
+                Schedule a call today
+              </button>
           </div>
+
         </div>
     <!-- Footer Section -->
-    <div class="app__footer">
+    <div class="app__footer ">
         <div class="app__footer-info">
               <div class="app__footer-contact">
                     <h5>Get in touch</h5>
-                    <p>loremipsumpk@gmail.com</p>
-                    <p>Floor 3, One Expressway, Gulberg Greens, Islamabad</p>
+                    <div class="app__footer-mail">
+                      <p>loremipsumpk@gmail.com</p>
+                      <i class="fa fa-envelope" style="color: white;"></i>
+                    </div>
+
+                    <div class="app__footer-address">
+                       <p>Floor 3, One Expressway, Gulberg Greens, Islamabad</p>
+                       <i class="fa fa-envelope" style="color: white;"></i>
+                    </div>
+                   
               </div>
               <div class="app__footer-follow">
                   <h5>Follow us</h5>
@@ -337,14 +439,14 @@
                     <img src="images/facebook.svg" alt="">
                     <img src="images/instagram (1).png" alt="">
                     <img src="images/twitter.svg" alt="">
+                    <img src="images/youtube.svg" alt="">
                   </div>
               </div>
         </div>
       
           <div class="app__footer-links">
-              <a href="privacy">Contact</a>
-              <a href="privacy">Disclaimer</a>
-              <a href="privacy">Privacy Policy</a>
+              <a href="privacy">Terms & Conditions</a>
+              <a href="privacy">Privacy </a>
               <p>@2021 Get an Intervention Inc. All rights reserved.</p> 
           </div>
     </div>
